@@ -24,7 +24,7 @@ public:
             if(val==target){
                 return mid;
             }
-            else if(val>target){
+            else if(val==INT_MAX || val>target){
                 hi=mid-1;
             }
             else{
